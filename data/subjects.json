@@ -133,8 +133,8 @@
     },
     {
       "group": "A",
-      "slug": "python-bioinformatics-tutorial",
-      "localPath": "../A_Foundation_Tools_基礎工具/Python/python-bioinformatics-tutorial/",
+      "slug": "python-bioinformatics-interactive-tutorial",
+      "localPath": "../A_Foundation_Tools_基礎工具/Python/python-bioinformatics-interactive-tutorial/",
       "nameZh": "Python 入門",
       "nameEn": "Python for Bioinformatics",
       "descZh": "語法、NumPy、pandas、Biopython 基礎。",
