@@ -7,7 +7,7 @@
    ============================================================ */
 const LS = { lang:'biportal_lang', theme:'biportal_theme', mode:'biportal_mode' };
 const state = {
-  lang:  localStorage.getItem(LS.lang)  || 'zh',
+  lang:  localStorage.getItem(LS.lang)  || 'en',
   theme: localStorage.getItem(LS.theme) || 'auto',
   mode:  localStorage.getItem(LS.mode)  || 'github',
   data:  null,

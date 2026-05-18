@@ -10,12 +10,13 @@
   },
   "githubUser": "charlene717",
   "featured": [
-    "linalg-interactive-tutorial",
-    "qda-interactive-tutorial",
-    "intro-bioinfo-prog-interactive-tutorial",
-    "htba-interactive-tutorial",
-    "mathbio-interactive-tutorial",
-    "ct-interactive-tutorial"
+    "scrna-interactive-tutorial",
+    "biostats-interactive-tutorial",
+    "spatial-transcriptomics-interactive-tutorial",
+    "git-interactive-tutorial",
+    "r-bioinformatics-interactive-tutorial",
+    "linux-bioinfo-interactive-tutorial",
+    "ai-agents-interactive-tutorial"
   ],
   "groups": [
     {
@@ -278,6 +279,16 @@
       "nameEn": "Statistical Inference",
       "descZh": "估計、假設檢定、貝氏推論、信賴區間。",
       "descEn": "Estimation, hypothesis testing, Bayesian inference, and confidence intervals.",
+      "status": "deployed"
+    },
+    {
+      "group": "D",
+      "slug": "biostats-interactive-tutorial",
+      "localPath": "../D_Math_Statistics_數學統計/Biostatistics/biostats-interactive-tutorial/",
+      "nameZh": "生物統計學",
+      "nameEn": "Biostatistics",
+      "descZh": "臨床試驗、存活分析、流行病學統計、檢力計算。",
+      "descEn": "Clinical trials, survival analysis, epidemiological statistics, and power calculations.",
       "status": "deployed"
     },
     {
