@@ -13,7 +13,7 @@ This portal is the front door to **44 interactive learning modules**, organized 
 ## 🚀 Quick Start · 快速開始
 
 **Live portal · 線上入口:**
-[https://charlene717.github.io/bioinfo-interactive-tutorial-portal/](https://charlene717.github.io/bioinfo-interactive-tutorial-portal/)
+<a href="https://charlene717.github.io/bioinfo-interactive-tutorial-portal/" target="_blank" rel="noopener noreferrer">https://charlene717.github.io/bioinfo-interactive-tutorial-portal/ ↗</a>
 
 1. **Open the portal** in your browser. 用瀏覽器開啟首頁。
 2. **Pick a track or a featured module.** Each card opens in a new tab so your reading position is preserved. 選擇一個主題軸或精選模組；每張卡片都會在新分頁開啟，不打斷你目前的瀏覽。
@@ -84,9 +84,9 @@ Each module card shows a status badge:
 | 🟡 **In revision** | Content exists but is being actively edited | 內容已建立，但仍在修訂中 |
 | ⚫ **Planned** | Folder reserved; content not yet started | 已預留位置，尚未開始建置 |
 
-If you find a module particularly useful — or spot a mistake — please [open an issue](https://github.com/charlene717/bioinfo-interactive-tutorial-portal/issues). Feedback is welcome at any time.
+If you find a module particularly useful — or spot a mistake — please <a href="https://github.com/charlene717/bioinfo-interactive-tutorial-portal/issues" target="_blank" rel="noopener noreferrer">open an issue ↗</a>. Feedback is welcome at any time.
 
-若你覺得某門模組特別有用，或發現任何錯誤、想看到的主題，歡迎到 [GitHub Issues](https://github.com/charlene717/bioinfo-interactive-tutorial-portal/issues) 留言。任何時候都歡迎回饋。
+若你覺得某門模組特別有用，或發現任何錯誤、想看到的主題，歡迎到 <a href="https://github.com/charlene717/bioinfo-interactive-tutorial-portal/issues" target="_blank" rel="noopener noreferrer">GitHub Issues ↗</a> 留言。任何時候都歡迎回饋。
 
 ---
 
@@ -126,9 +126,9 @@ A "live" module is publicly stable; an "in revision" module has working content 
 
 ## 📖 About the author · 關於作者
 
-This series is a personal open-source teaching project by **Charlene Hsieh** ([@charlene717](https://github.com/charlene717)).
+This series is a personal open-source teaching project by **Charlene Hsieh** (<a href="https://github.com/charlene717" target="_blank" rel="noopener noreferrer">@charlene717 ↗</a>).
 
-本系列為 **Charlene Hsieh** ([@charlene717](https://github.com/charlene717)) 的個人開源教學計畫。
+本系列為 **Charlene Hsieh** (<a href="https://github.com/charlene717" target="_blank" rel="noopener noreferrer">@charlene717 ↗</a>) 的個人開源教學計畫。
 
 Built independently to support bioinformatics education in the Chinese-speaking research community while remaining fully accessible to English speakers. Every module is cross-checked against current peer-reviewed literature and includes DOI-resolved citations.
 
@@ -138,9 +138,9 @@ Built independently to support bioinformatics education in the Chinese-speaking 
 
 ## 📄 License · 授權
 
-Released under the [MIT License](https://opensource.org/license/mit). Free for academic and commercial use with attribution.
+Released under the <a href="https://opensource.org/license/mit" target="_blank" rel="noopener noreferrer">MIT License ↗</a>. Free for academic and commercial use with attribution.
 
-採 [MIT License](https://opensource.org/license/mit) 授權釋出。學術與商業用途皆可自由使用，請保留署名。
+採 <a href="https://opensource.org/license/mit" target="_blank" rel="noopener noreferrer">MIT License ↗</a> 授權釋出。學術與商業用途皆可自由使用，請保留署名。
 
 ---
 
