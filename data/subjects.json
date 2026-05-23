@@ -10,12 +10,13 @@
   },
   "githubUser": "charlene717",
   "featured": [
-    "scrna-interactive-tutorial",
-    "biostats-interactive-tutorial",
-    "spatial-transcriptomics-interactive-tutorial",
     "git-interactive-tutorial",
-    "r-bioinformatics-interactive-tutorial",
     "linux-bioinfo-interactive-tutorial",
+    "r-bioinformatics-interactive-tutorial",
+    "biostats-interactive-tutorial",
+    "bioinformatics-interactive-tutorial",
+    "scrna-interactive-tutorial",
+    "spatial-transcriptomics-interactive-tutorial",
     "ai-agents-interactive-tutorial"
   ],
   "groups": [
@@ -115,7 +116,7 @@
       "group": "A",
       "slug": "git-interactive-tutorial",
       "localPath": "../A_Foundation_Tools_基礎工具/Git_GitHub/git-interactive-tutorial/",
-      "nameZh": "Git / GitHub",
+      "nameZh": "Git 與 GitHub",
       "nameEn": "Git / GitHub",
       "descZh": "版本控制、分支、Pull Request、Issue、Actions 入門。",
       "descEn": "Version control, branches, pull requests, issues, and GitHub Actions.",
@@ -125,10 +126,20 @@
       "group": "A",
       "slug": "linux-bioinfo-interactive-tutorial",
       "localPath": "../A_Foundation_Tools_基礎工具/Linux/linux-bioinfo-interactive-tutorial/",
-      "nameZh": "Linux for Bioinformatics",
+      "nameZh": "生資 Linux 入門",
       "nameEn": "Linux for Bioinformatics",
       "descZh": "Bash、SSH、SLURM、awk/sed 與 pipeline 思維。",
       "descEn": "Bash, SSH, SLURM, awk/sed, and the pipeline mindset.",
+      "status": "deployed"
+    },
+    {
+      "group": "A",
+      "slug": "r-bioinformatics-interactive-tutorial",
+      "localPath": "../A_Foundation_Tools_基礎工具/R/r-bioinformatics-interactive-tutorial/",
+      "nameZh": "R 與 tidyverse",
+      "nameEn": "R / tidyverse",
+      "descZh": "tidyverse、ggplot2、Bioconductor 入門。",
+      "descEn": "tidyverse, ggplot2, and a Bioconductor primer.",
       "status": "deployed"
     },
     {
@@ -139,16 +150,6 @@
       "nameEn": "Python for Bioinformatics",
       "descZh": "語法、NumPy、pandas、Biopython 基礎。",
       "descEn": "Syntax, NumPy, pandas, and Biopython basics.",
-      "status": "deployed"
-    },
-    {
-      "group": "A",
-      "slug": "r-bioinformatics-interactive-tutorial",
-      "localPath": "../A_Foundation_Tools_基礎工具/R/r-bioinformatics-interactive-tutorial/",
-      "nameZh": "R / tidyverse",
-      "nameEn": "R / tidyverse",
-      "descZh": "tidyverse、ggplot2、Bioconductor 入門。",
-      "descEn": "tidyverse, ggplot2, and a Bioconductor primer.",
       "status": "deployed"
     },
     {
@@ -193,12 +194,12 @@
     },
     {
       "group": "C",
-      "slug": "biochem-interactive-tutorial",
-      "localPath": "../C_Bio_Foundations_生物基礎/Biochemistry/biochem-interactive-tutorial/",
-      "nameZh": "生物化學",
-      "nameEn": "Biochemistry",
-      "descZh": "胺基酸、蛋白質結構、酵素動力學、代謝路徑。",
-      "descEn": "Amino acids, protein structure, enzyme kinetics, and metabolism.",
+      "slug": "general-biology-interactive-tutorial",
+      "localPath": "../C_Bio_Foundations_生物基礎/General_Biology/general-biology-interactive-tutorial/",
+      "nameZh": "普通生物學",
+      "nameEn": "General Biology",
+      "descZh": "演化、遺傳、生態與分子細胞的綜論。",
+      "descEn": "Evolution, genetics, ecology, and a molecular-cellular overview.",
       "status": "deployed"
     },
     {
@@ -213,22 +214,22 @@
     },
     {
       "group": "C",
-      "slug": "general-biology-interactive-tutorial",
-      "localPath": "../C_Bio_Foundations_生物基礎/General_Biology/general-biology-interactive-tutorial/",
-      "nameZh": "普通生物學",
-      "nameEn": "General Biology",
-      "descZh": "演化、遺傳、生態與分子細胞的綜論。",
-      "descEn": "Evolution, genetics, ecology, and a molecular-cellular overview.",
-      "status": "deployed"
-    },
-    {
-      "group": "C",
       "slug": "genetics-interactive-tutorial",
       "localPath": "../C_Bio_Foundations_生物基礎/Genetics/genetics-interactive-tutorial/",
       "nameZh": "遺傳學",
       "nameEn": "Genetics",
       "descZh": "孟德爾遺傳、連鎖、突變、族群遺傳。",
       "descEn": "Mendelian inheritance, linkage, mutation, and population genetics.",
+      "status": "deployed"
+    },
+    {
+      "group": "C",
+      "slug": "biochem-interactive-tutorial",
+      "localPath": "../C_Bio_Foundations_生物基礎/Biochemistry/biochem-interactive-tutorial/",
+      "nameZh": "生物化學",
+      "nameEn": "Biochemistry",
+      "descZh": "胺基酸、蛋白質結構、酵素動力學、代謝路徑。",
+      "descEn": "Amino acids, protein structure, enzyme kinetics, and metabolism.",
       "status": "deployed"
     },
     {
@@ -253,26 +254,6 @@
     },
     {
       "group": "D",
-      "slug": "mathbio-interactive-tutorial",
-      "localPath": "../D_Math_Statistics_數學統計/Mathematical_Biology/mathbio-interactive-tutorial/",
-      "nameZh": "數學生物學",
-      "nameEn": "Mathematical Biology",
-      "descZh": "ODE/PDE、Lotka-Volterra、SIR、Turing、bifurcation。",
-      "descEn": "ODE/PDE models, Lotka-Volterra, SIR, Turing patterns, and bifurcation.",
-      "status": "deployed"
-    },
-    {
-      "group": "D",
-      "slug": "qda-interactive-tutorial",
-      "localPath": "../D_Math_Statistics_數學統計/Quantitative_Data_Analysis/qda-interactive-tutorial/",
-      "nameZh": "定量資料分析",
-      "nameEn": "Quantitative Data Analysis",
-      "descZh": "qPCR / WB / ELISA / Flow → EDA / 檢定 / FDR / Effect size。",
-      "descEn": "qPCR / WB / ELISA / Flow → EDA / testing / FDR / effect size.",
-      "status": "deployed"
-    },
-    {
-      "group": "D",
       "slug": "stat-inference-interactive-tutorial",
       "localPath": "../D_Math_Statistics_數學統計/Statistical_Inference/stat-inference-interactive-tutorial/",
       "nameZh": "統計推論",
@@ -292,6 +273,26 @@
       "status": "deployed"
     },
     {
+      "group": "D",
+      "slug": "qda-interactive-tutorial",
+      "localPath": "../D_Math_Statistics_數學統計/Quantitative_Data_Analysis/qda-interactive-tutorial/",
+      "nameZh": "定量資料分析",
+      "nameEn": "Quantitative Data Analysis",
+      "descZh": "qPCR / WB / ELISA / Flow → EDA / 檢定 / FDR / Effect size。",
+      "descEn": "qPCR / WB / ELISA / Flow → EDA / testing / FDR / effect size.",
+      "status": "deployed"
+    },
+    {
+      "group": "D",
+      "slug": "mathbio-interactive-tutorial",
+      "localPath": "../D_Math_Statistics_數學統計/Mathematical_Biology/mathbio-interactive-tutorial/",
+      "nameZh": "數學生物學",
+      "nameEn": "Mathematical Biology",
+      "descZh": "ODE/PDE、Lotka-Volterra、SIR、Turing、bifurcation。",
+      "descEn": "ODE/PDE models, Lotka-Volterra, SIR, Turing patterns, and bifurcation.",
+      "status": "deployed"
+    },
+    {
       "group": "E",
       "slug": "bioinformatics-interactive-tutorial",
       "localPath": "../E_Bioinformatics_Core_生資綜論/Bioinformatics/bioinformatics-interactive-tutorial/",
@@ -299,26 +300,6 @@
       "nameEn": "Bioinformatics",
       "descZh": "序列分析、比對、BLAST 與生資資料庫入門。",
       "descEn": "Sequence analysis, alignment, BLAST, and major bioinformatics databases.",
-      "status": "wip"
-    },
-    {
-      "group": "E",
-      "slug": "bna-interactive-tutorial",
-      "localPath": "../E_Bioinformatics_Core_生資綜論/Biological_Network_Analysis/bna-interactive-tutorial/",
-      "nameZh": "生物網路分析",
-      "nameEn": "Biological Network Analysis",
-      "descZh": "PPI、GRN、共表達網路與社群偵測。",
-      "descEn": "PPI, GRN, co-expression networks, and community detection.",
-      "status": "deployed"
-    },
-    {
-      "group": "E",
-      "slug": "biomedinfo-interactive-tutorial",
-      "localPath": "../E_Bioinformatics_Core_生資綜論/Biomedical_Informatics/biomedinfo-interactive-tutorial/",
-      "nameZh": "生醫資訊學",
-      "nameEn": "Biomedical Informatics",
-      "descZh": "電子病歷、影像資料、本體論與臨床預測模型。",
-      "descEn": "EHRs, imaging data, ontologies, and clinical prediction models.",
       "status": "deployed"
     },
     {
@@ -333,12 +314,12 @@
     },
     {
       "group": "E",
-      "slug": "simulation-analysis-interactive-tutorial",
-      "localPath": "../E_Bioinformatics_Core_生資綜論/Simulation_and_Analysis/simulation-analysis-interactive-tutorial/",
-      "nameZh": "模擬與分析",
-      "nameEn": "Simulation & Analysis",
-      "descZh": "Monte Carlo、SSA、agent-based、in silico 實驗設計。",
-      "descEn": "Monte Carlo, SSA, agent-based, in silico experimentation.",
+      "slug": "bna-interactive-tutorial",
+      "localPath": "../E_Bioinformatics_Core_生資綜論/Biological_Network_Analysis/bna-interactive-tutorial/",
+      "nameZh": "生物網路分析",
+      "nameEn": "Biological Network Analysis",
+      "descZh": "PPI、GRN、共表達網路與社群偵測。",
+      "descEn": "PPI, GRN, co-expression networks, and community detection.",
       "status": "deployed"
     },
     {
@@ -352,10 +333,30 @@
       "status": "deployed"
     },
     {
+      "group": "E",
+      "slug": "simulation-analysis-interactive-tutorial",
+      "localPath": "../E_Bioinformatics_Core_生資綜論/Simulation_and_Analysis/simulation-analysis-interactive-tutorial/",
+      "nameZh": "模擬與分析",
+      "nameEn": "Simulation & Analysis",
+      "descZh": "Monte Carlo、SSA、agent-based、in silico 實驗設計。",
+      "descEn": "Monte Carlo, SSA, agent-based, in silico experimentation.",
+      "status": "deployed"
+    },
+    {
+      "group": "E",
+      "slug": "biomedinfo-interactive-tutorial",
+      "localPath": "../E_Bioinformatics_Core_生資綜論/Biomedical_Informatics/biomedinfo-interactive-tutorial/",
+      "nameZh": "生醫資訊學",
+      "nameEn": "Biomedical Informatics",
+      "descZh": "電子病歷、影像資料、本體論與臨床預測模型。",
+      "descEn": "EHRs, imaging data, ontologies, and clinical prediction models.",
+      "status": "deployed"
+    },
+    {
       "group": "F",
       "slug": "bulk-rnaseq-interactive-tutorial",
       "localPath": "../F_Omics_組學分析/Bulk_RNA-seq/bulk-rnaseq-interactive-tutorial/",
-      "nameZh": "Bulk RNA-seq",
+      "nameZh": "Bulk RNA-seq 分析",
       "nameEn": "Bulk RNA-seq",
       "descZh": "QC、對齊、計數、DESeq2 與富集分析的完整工作流。",
       "descEn": "QC, alignment, counting, DESeq2, and enrichment analysis end-to-end.",
@@ -363,42 +364,12 @@
     },
     {
       "group": "F",
-      "slug": "epigenetics-interactive-tutorial",
-      "localPath": "../F_Omics_組學分析/Epigenetics/epigenetics-interactive-tutorial/",
-      "nameZh": "表觀遺傳學",
-      "nameEn": "Epigenetics",
-      "descZh": "ChIP-seq、ATAC-seq、DNA 甲基化、Hi-C。",
-      "descEn": "ChIP-seq, ATAC-seq, DNA methylation, and Hi-C.",
-      "status": "deployed"
-    },
-    {
-      "group": "F",
-      "slug": "genomics-interactive-tutorial",
-      "localPath": "../F_Omics_組學分析/Genomics/genomics-interactive-tutorial/",
-      "nameZh": "基因體學",
-      "nameEn": "Genomics",
-      "descZh": "WGS / WES、變異呼叫、CNV 與結構變異分析。",
-      "descEn": "WGS / WES, variant calling, CNVs, and structural-variant analysis.",
-      "status": "deployed"
-    },
-    {
-      "group": "F",
-      "slug": "multiomics-interactive-tutorial",
-      "localPath": "../F_Omics_組學分析/Multi-Omics/multiomics-interactive-tutorial/",
-      "nameZh": "多組學整合",
-      "nameEn": "Multi-Omics Integration",
-      "descZh": "MOFA、iCluster、CCA 與跨模態整合方法。",
-      "descEn": "MOFA, iCluster, CCA, and cross-modality integration methods.",
-      "status": "deployed"
-    },
-    {
-      "group": "F",
-      "slug": "proteomics-interactive-tutorial",
-      "localPath": "../F_Omics_組學分析/Proteomics/proteomics-interactive-tutorial/",
-      "nameZh": "蛋白體學",
-      "nameEn": "Proteomics",
-      "descZh": "質譜流程、MaxLFQ、PTM 與定量分析。",
-      "descEn": "Mass-spec workflows, MaxLFQ, PTMs, and quantitative proteomics.",
+      "slug": "scrna-interactive-tutorial",
+      "localPath": "../F_Omics_組學分析/scRNA-seq/scrna-interactive-tutorial/",
+      "nameZh": "單細胞 RNA-seq",
+      "nameEn": "Single-Cell RNA-seq",
+      "descZh": "QC、PCA、UMAP、分群、軌跡推論與 CellChat。",
+      "descEn": "QC, PCA, UMAP, clustering, trajectory inference, and CellChat.",
       "status": "deployed"
     },
     {
@@ -423,12 +394,52 @@
     },
     {
       "group": "F",
-      "slug": "scrna-interactive-tutorial",
-      "localPath": "../F_Omics_組學分析/scRNA-seq/scrna-interactive-tutorial/",
-      "nameZh": "單細胞 RNA-seq",
-      "nameEn": "Single-Cell RNA-seq",
-      "descZh": "QC、PCA、UMAP、分群、軌跡推論與 CellChat。",
-      "descEn": "QC, PCA, UMAP, clustering, trajectory inference, and CellChat.",
+      "slug": "epigenetics-interactive-tutorial",
+      "localPath": "../F_Omics_組學分析/Epigenetics/epigenetics-interactive-tutorial/",
+      "nameZh": "表觀遺傳學",
+      "nameEn": "Epigenetics",
+      "descZh": "ChIP-seq、ATAC-seq、DNA 甲基化、Hi-C。",
+      "descEn": "ChIP-seq, ATAC-seq, DNA methylation, and Hi-C.",
+      "status": "deployed"
+    },
+    {
+      "group": "F",
+      "slug": "genomics-interactive-tutorial",
+      "localPath": "../F_Omics_組學分析/Genomics/genomics-interactive-tutorial/",
+      "nameZh": "基因體學",
+      "nameEn": "Genomics",
+      "descZh": "WGS / WES、變異呼叫、CNV 與結構變異分析。",
+      "descEn": "WGS / WES, variant calling, CNVs, and structural-variant analysis.",
+      "status": "deployed"
+    },
+    {
+      "group": "F",
+      "slug": "wgswes-interactive-tutorial",
+      "localPath": "../F_Omics_組學分析/WGS-WES/wgswes-interactive-tutorial/",
+      "nameZh": "全基因組／外顯子定序 (WGS / WES)",
+      "nameEn": "WGS / WES",
+      "descZh": "16 章 / 4 段：FASTQ → BAM → VCF → ACMG 臨床變異報告全流程。",
+      "descEn": "16 chapters / 4 sections: FASTQ → BAM → VCF → ACMG clinical variant report.",
+      "status": "deployed"
+    },
+    {
+      "group": "F",
+      "slug": "proteomics-interactive-tutorial",
+      "localPath": "../F_Omics_組學分析/Proteomics/proteomics-interactive-tutorial/",
+      "nameZh": "蛋白體學",
+      "nameEn": "Proteomics",
+      "descZh": "質譜流程、MaxLFQ、PTM 與定量分析。",
+      "descEn": "Mass-spec workflows, MaxLFQ, PTMs, and quantitative proteomics.",
+      "status": "deployed"
+    },
+    {
+      "group": "F",
+      "slug": "multiomics-interactive-tutorial",
+      "localPath": "../F_Omics_組學分析/Multi-Omics/multiomics-interactive-tutorial/",
+      "nameZh": "多組學整合",
+      "nameEn": "Multi-Omics Integration",
+      "descZh": "MOFA、iCluster、CCA 與跨模態整合方法。",
+      "descEn": "MOFA, iCluster, CCA, and cross-modality integration methods.",
       "status": "deployed"
     },
     {
@@ -443,12 +454,12 @@
     },
     {
       "group": "G",
-      "slug": "data-mining-interactive-tutorial",
-      "localPath": "../G_ML_DL_機器深度學習/Data_Mining/data-mining-interactive-tutorial/",
-      "nameZh": "資料探勘",
-      "nameEn": "Data Mining",
-      "descZh": "關聯規則、分群、異常偵測、特徵工程。",
-      "descEn": "Association rules, clustering, anomaly detection, and feature engineering.",
+      "slug": "ml-bioinformatics-interactive-tutorial",
+      "localPath": "../G_ML_DL_機器深度學習/Machine_Learning/ml-bioinformatics-interactive-tutorial/",
+      "nameZh": "機器學習",
+      "nameEn": "Machine Learning",
+      "descZh": "監督 / 非監督學習、模型評估、SHAP 與可解釋性。",
+      "descEn": "Supervised / unsupervised learning, evaluation, SHAP, interpretability.",
       "status": "deployed"
     },
     {
@@ -463,43 +474,23 @@
     },
     {
       "group": "G",
-      "slug": "ml-bioinformatics-interactive-tutorial",
-      "localPath": "../G_ML_DL_機器深度學習/Machine_Learning/ml-bioinformatics-interactive-tutorial/",
-      "nameZh": "機器學習",
-      "nameEn": "Machine Learning",
-      "descZh": "監督 / 非監督學習、模型評估、SHAP 與可解釋性。",
-      "descEn": "Supervised / unsupervised learning, evaluation, SHAP, interpretability.",
+      "slug": "data-mining-interactive-tutorial",
+      "localPath": "../G_ML_DL_機器深度學習/Data_Mining/data-mining-interactive-tutorial/",
+      "nameZh": "資料探勘",
+      "nameEn": "Data Mining",
+      "descZh": "關聯規則、分群、異常偵測、特徵工程。",
+      "descEn": "Association rules, clustering, anomaly detection, and feature engineering.",
       "status": "deployed"
     },
     {
       "group": "H",
-      "slug": "ai-agents-interactive-tutorial",
-      "localPath": "../H_AI_Advanced_AI進階/AI_Agents/ai-agents-interactive-tutorial/",
-      "nameZh": "AI Agents",
-      "nameEn": "AI Agents",
-      "descZh": "Tool use、ReAct、planning 與 multi-agent 架構。",
-      "descEn": "Tool use, ReAct, planning, and multi-agent architectures.",
-      "status": "deployed"
-    },
-    {
-      "group": "H",
-      "slug": "ai-literacy-tutorial",
-      "localPath": "../H_AI_Advanced_AI進階/AI_Literacy_for_Biomed/ai-literacy-tutorial/",
+      "slug": "ai-literacy-interactive-tutorial",
+      "localPath": "../H_AI_Advanced_AI進階/AI_Literacy_for_Biomed/ai-literacy-interactive-tutorial/",
       "nameZh": "生醫 AI 素養",
       "nameEn": "AI Literacy for Biomedicine",
       "descZh": "Prompt 工程、評估方法、偏誤與合規思維。",
       "descEn": "Prompt engineering, evaluation, bias, and compliance for biomedical AI.",
       "status": "deployed"
-    },
-    {
-      "group": "H",
-      "slug": "aibd-interactive-tutorial",
-      "localPath": "../H_AI_Advanced_AI進階/AI_Meets_BioBigData/",
-      "nameZh": "AI 與生醫大數據",
-      "nameEn": "AI Meets Biomedical Big Data",
-      "descZh": "TCGA / GTEx、生物基礎模型、跨組學 AI 整合。",
-      "descEn": "TCGA / GTEx, biological foundation models, and cross-omics AI integration.",
-      "status": "planning"
     },
     {
       "group": "H",
@@ -509,6 +500,26 @@
       "nameEn": "Single-Cell LLMs",
       "descZh": "scGPT、Geneformer、scFoundation 等基礎模型。",
       "descEn": "scGPT, Geneformer, scFoundation, and other single-cell foundation models.",
+      "status": "deployed"
+    },
+    {
+      "group": "H",
+      "slug": "ai-agents-interactive-tutorial",
+      "localPath": "../H_AI_Advanced_AI進階/AI_Agents/ai-agents-interactive-tutorial/",
+      "nameZh": "AI 代理人 (Agents)",
+      "nameEn": "AI Agents",
+      "descZh": "Tool use、ReAct、planning 與 multi-agent 架構。",
+      "descEn": "Tool use, ReAct, planning, and multi-agent architectures.",
+      "status": "deployed"
+    },
+    {
+      "group": "H",
+      "slug": "aibd-interactive-tutorial",
+      "localPath": "../H_AI_Advanced_AI進階/AI_Meets_BioBigData/aibd-interactive-tutorial/",
+      "nameZh": "AI 與生醫大數據",
+      "nameEn": "AI Meets Biomedical Big Data",
+      "descZh": "TCGA / GTEx、生物基礎模型、跨組學 AI 整合。",
+      "descEn": "TCGA / GTEx, biological foundation models, and cross-omics AI integration.",
       "status": "deployed"
     },
     {
