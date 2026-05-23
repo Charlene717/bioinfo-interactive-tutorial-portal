@@ -227,9 +227,10 @@ function buildCourseCard(s, g, ordinal) {
 
 function statusPill(status) {
   const map = {
-    deployed: { zh: '已上線', en: 'Live' },
-    wip:      { zh: '修訂中', en: 'In revision' },
-    planning: { zh: '規劃中', en: 'Planned' },
+    deployed: { zh: '已上線',   en: 'Live' },
+    preview:  { zh: '預覽版',   en: 'Preview' },
+    wip:      { zh: '修訂中',   en: 'In revision' },
+    planning: { zh: '規劃中',   en: 'Planned' },
   };
   const lbl = map[status];
   const text = lbl ? (state.lang === 'en' ? lbl.en : lbl.zh) : status;

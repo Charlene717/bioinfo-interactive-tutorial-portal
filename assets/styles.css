@@ -24,9 +24,10 @@
   --sans:  "Inter", "Noto Sans TC", -apple-system, BlinkMacSystemFont, "Segoe UI",
            "PingFang TC", "Microsoft JhengHei", Helvetica, Arial, sans-serif;
   --mono:  ui-monospace, SFMono-Regular, "Menlo", "Cascadia Code", monospace;
-  --status-deployed: #047857;
-  --status-wip:      #b45309;
-  --status-planning: #4b5563;
+  --status-deployed:    #047857;
+  --status-preview:     #6b7280;
+  --status-wip:         #b45309;
+  --status-planning:    #4b5563;
   --content-w: 1180px;
   --radius:    14px;
   --radius-sm: 8px;
@@ -49,9 +50,10 @@
   --shadow-s:     0 1px 2px rgba(0,0,0,.55);
   --shadow-m:     0 4px 14px rgba(0,0,0,.5), 0 18px 40px rgba(0,0,0,.55);
   --shadow-l:     0 8px 22px rgba(0,0,0,.6), 0 36px 72px rgba(0,0,0,.65);
-  --status-deployed: #34d399;
-  --status-wip:      #fbbf24;
-  --status-planning: #94a3b8;
+  --status-deployed:    #34d399;
+  --status-preview:     #cbd5e1;
+  --status-wip:         #fbbf24;
+  --status-planning:    #94a3b8;
 }
 @media (prefers-color-scheme: dark) {
   [data-theme="auto"] {
@@ -62,7 +64,7 @@
     --shadow-s: 0 1px 2px rgba(0,0,0,.55);
     --shadow-m: 0 4px 14px rgba(0,0,0,.5), 0 18px 40px rgba(0,0,0,.55);
     --shadow-l: 0 8px 22px rgba(0,0,0,.6), 0 36px 72px rgba(0,0,0,.65);
-    --status-deployed: #34d399; --status-wip: #fbbf24; --status-planning: #94a3b8;
+    --status-deployed: #34d399; --status-preview: #cbd5e1; --status-wip: #fbbf24; --status-planning: #94a3b8;
   }
 }
 * { box-sizing: border-box; }
@@ -262,9 +264,10 @@ a:hover { color: var(--link-hover); text-decoration: underline; }
   border: 1px solid currentColor; letter-spacing: 0.04em;
 }
 .c-status .dot { width: 6px; height: 6px; border-radius: 50%; background: currentColor; }
-.c-status-deployed { color: var(--status-deployed); }
-.c-status-wip      { color: var(--status-wip); }
-.c-status-planning { color: var(--status-planning); }
+.c-status-deployed    { color: var(--status-deployed); }
+.c-status-preview     { color: var(--status-preview); }
+.c-status-wip         { color: var(--status-wip); }
+.c-status-planning    { color: var(--status-planning); }
 .course-card .c-title { font-family: var(--serif); font-weight: 700; font-size: 1.18rem; line-height: 1.25; margin: 4px 0 0; color: var(--fg); }
 .course-card .c-alt { font-family: var(--serif); font-style: italic; font-size: 0.86rem; color: var(--fg-mute); margin: 2px 0 0; }
 .course-card .c-desc { font-size: 0.92rem; color: var(--fg-soft); line-height: 1.55; flex: 1; }

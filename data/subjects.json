@@ -150,7 +150,7 @@
       "nameEn": "Python for Bioinformatics",
       "descZh": "語法、NumPy、pandas、Biopython 基礎。",
       "descEn": "Syntax, NumPy, pandas, and Biopython basics.",
-      "status": "deployed"
+      "status": "preview"
     },
     {
       "group": "A",
@@ -160,7 +160,7 @@
       "nameEn": "Intro to Bioinformatics Programming",
       "descZh": "Python / R 雙軌、FASTA / FASTQ / VCF、Snakemake & Nextflow。",
       "descEn": "Parallel Python / R tracks, FASTA / FASTQ / VCF, Snakemake & Nextflow.",
-      "status": "deployed"
+      "status": "preview"
     },
     {
       "group": "B",
@@ -170,7 +170,7 @@
       "nameEn": "Computational Thinking & DS",
       "descZh": "Wing 四支柱 × DS 工作流；20 章 + 200 題雙語題庫。",
       "descEn": "Wing's four pillars meet the DS workflow; 20 chapters + 200-Q bilingual quiz.",
-      "status": "deployed"
+      "status": "preview"
     },
     {
       "group": "B",
@@ -180,7 +180,7 @@
       "nameEn": "Computer Science Intro",
       "descZh": "演算法、資料結構、計算複雜度的入門概念。",
       "descEn": "Algorithms, data structures, and computational complexity.",
-      "status": "deployed"
+      "status": "preview"
     },
     {
       "group": "B",
@@ -190,7 +190,7 @@
       "nameEn": "Data Science Foundations",
       "descZh": "探索性分析、資料清洗、可視化與模型評估流程。",
       "descEn": "EDA, data cleaning, visualization, and model evaluation.",
-      "status": "deployed"
+      "status": "preview"
     },
     {
       "group": "C",
@@ -200,7 +200,7 @@
       "nameEn": "General Biology",
       "descZh": "演化、遺傳、生態與分子細胞的綜論。",
       "descEn": "Evolution, genetics, ecology, and a molecular-cellular overview.",
-      "status": "deployed"
+      "status": "preview"
     },
     {
       "group": "C",
@@ -210,7 +210,7 @@
       "nameEn": "Biology Foundations",
       "descZh": "細胞、組織、生理系統的整體概覽。",
       "descEn": "An overview of cells, tissues, and physiological systems.",
-      "status": "deployed"
+      "status": "preview"
     },
     {
       "group": "C",
@@ -220,7 +220,7 @@
       "nameEn": "Genetics",
       "descZh": "孟德爾遺傳、連鎖、突變、族群遺傳。",
       "descEn": "Mendelian inheritance, linkage, mutation, and population genetics.",
-      "status": "deployed"
+      "status": "preview"
     },
     {
       "group": "C",
@@ -230,7 +230,7 @@
       "nameEn": "Biochemistry",
       "descZh": "胺基酸、蛋白質結構、酵素動力學、代謝路徑。",
       "descEn": "Amino acids, protein structure, enzyme kinetics, and metabolism.",
-      "status": "deployed"
+      "status": "preview"
     },
     {
       "group": "C",
@@ -240,7 +240,7 @@
       "nameEn": "Molecular Cell Biology",
       "descZh": "DNA→RNA→蛋白質、訊號傳導、細胞週期。",
       "descEn": "DNA→RNA→protein, signaling pathways, and the cell cycle.",
-      "status": "deployed"
+      "status": "preview"
     },
     {
       "group": "D",
@@ -260,7 +260,7 @@
       "nameEn": "Linear Algebra",
       "descZh": "20 章 / 6 區塊：向量 → 矩陣 → 子空間 → SVD/PCA → 生資應用。",
       "descEn": "20 chapters / 6 blocks: vectors → matrices → subspaces → SVD/PCA → bioinformatics applications.",
-      "status": "deployed"
+      "status": "preview"
     },
     {
       "group": "D",
@@ -270,7 +270,7 @@
       "nameEn": "Statistical Inference",
       "descZh": "估計、假設檢定、貝氏推論、信賴區間。",
       "descEn": "Estimation, hypothesis testing, Bayesian inference, and confidence intervals.",
-      "status": "deployed"
+      "status": "preview"
     },
     {
       "group": "D",
@@ -280,7 +280,7 @@
       "nameEn": "Quantitative Data Analysis",
       "descZh": "qPCR / WB / ELISA / Flow → EDA / 檢定 / FDR / Effect size。",
       "descEn": "qPCR / WB / ELISA / Flow → EDA / testing / FDR / effect size.",
-      "status": "deployed"
+      "status": "preview"
     },
     {
       "group": "D",
@@ -290,7 +290,7 @@
       "nameEn": "Mathematical Biology",
       "descZh": "ODE/PDE、Lotka-Volterra、SIR、Turing、bifurcation。",
       "descEn": "ODE/PDE models, Lotka-Volterra, SIR, Turing patterns, and bifurcation.",
-      "status": "deployed"
+      "status": "preview"
     },
     {
       "group": "E",
@@ -310,7 +310,7 @@
       "nameEn": "High-Throughput Bioanalysis",
       "descZh": "FASTQ → counts → 多組學 → 基礎模型 → 重現性，20 章。",
       "descEn": "FASTQ → counts → multi-omics → foundation models → reproducibility, 20 ch.",
-      "status": "deployed"
+      "status": "preview"
     },
     {
       "group": "E",
@@ -320,7 +320,7 @@
       "nameEn": "Biological Network Analysis",
       "descZh": "PPI、GRN、共表達網路與社群偵測。",
       "descEn": "PPI, GRN, co-expression networks, and community detection.",
-      "status": "deployed"
+      "status": "preview"
     },
     {
       "group": "E",
@@ -330,7 +330,7 @@
       "nameEn": "Systems Biology",
       "descZh": "代謝模型、訊號網路、ODE 模擬與整合視角。",
       "descEn": "Metabolic models, signaling networks, ODE simulation, and an integrative view.",
-      "status": "deployed"
+      "status": "preview"
     },
     {
       "group": "E",
@@ -340,7 +340,7 @@
       "nameEn": "Simulation & Analysis",
       "descZh": "Monte Carlo、SSA、agent-based、in silico 實驗設計。",
       "descEn": "Monte Carlo, SSA, agent-based, in silico experimentation.",
-      "status": "deployed"
+      "status": "preview"
     },
     {
       "group": "E",
@@ -350,23 +350,23 @@
       "nameEn": "Biomedical Informatics",
       "descZh": "電子病歷、影像資料、本體論與臨床預測模型。",
       "descEn": "EHRs, imaging data, ontologies, and clinical prediction models.",
-      "status": "deployed"
+      "status": "preview"
     },
     {
       "group": "F",
       "slug": "bulk-rnaseq-interactive-tutorial",
       "localPath": "../F_Omics_組學分析/Bulk_RNA-seq/bulk-rnaseq-interactive-tutorial/",
-      "nameZh": "整體 RNA-seq",
+      "nameZh": "群體細胞轉錄組定序",
       "nameEn": "Bulk RNA-seq",
       "descZh": "QC、對齊、計數、DESeq2 與富集分析的完整工作流。",
       "descEn": "QC, alignment, counting, DESeq2, and enrichment analysis end-to-end.",
-      "status": "deployed"
+      "status": "preview"
     },
     {
       "group": "F",
       "slug": "scrna-interactive-tutorial",
       "localPath": "../F_Omics_組學分析/scRNA-seq/scrna-interactive-tutorial/",
-      "nameZh": "單細胞 RNA-seq",
+      "nameZh": "單細胞轉錄組定序",
       "nameEn": "Single-Cell RNA-seq",
       "descZh": "QC、PCA、UMAP、分群、軌跡推論與 CellChat。",
       "descEn": "QC, PCA, UMAP, clustering, trajectory inference, and CellChat.",
@@ -390,7 +390,7 @@
       "nameEn": "Transcriptomics",
       "descZh": "mRNA、lncRNA、isoform 與剪接分析。",
       "descEn": "mRNA, lncRNA, isoforms, and splicing analysis.",
-      "status": "deployed"
+      "status": "preview"
     },
     {
       "group": "F",
@@ -400,7 +400,7 @@
       "nameEn": "Epigenetics",
       "descZh": "ChIP-seq、ATAC-seq、DNA 甲基化、Hi-C。",
       "descEn": "ChIP-seq, ATAC-seq, DNA methylation, and Hi-C.",
-      "status": "deployed"
+      "status": "preview"
     },
     {
       "group": "F",
@@ -410,7 +410,7 @@
       "nameEn": "Genomics",
       "descZh": "WGS / WES、變異呼叫、CNV 與結構變異分析。",
       "descEn": "WGS / WES, variant calling, CNVs, and structural-variant analysis.",
-      "status": "deployed"
+      "status": "preview"
     },
     {
       "group": "F",
@@ -420,7 +420,7 @@
       "nameEn": "WGS / WES",
       "descZh": "16 章 / 4 段：FASTQ → BAM → VCF → ACMG 臨床變異報告全流程。",
       "descEn": "16 chapters / 4 sections: FASTQ → BAM → VCF → ACMG clinical variant report.",
-      "status": "deployed"
+      "status": "preview"
     },
     {
       "group": "F",
@@ -430,7 +430,7 @@
       "nameEn": "Proteomics",
       "descZh": "質譜流程、MaxLFQ、PTM 與定量分析。",
       "descEn": "Mass-spec workflows, MaxLFQ, PTMs, and quantitative proteomics.",
-      "status": "deployed"
+      "status": "preview"
     },
     {
       "group": "F",
@@ -440,7 +440,7 @@
       "nameEn": "Multi-Omics Integration",
       "descZh": "MOFA、iCluster、CCA 與跨模態整合方法。",
       "descEn": "MOFA, iCluster, CCA, and cross-modality integration methods.",
-      "status": "deployed"
+      "status": "preview"
     },
     {
       "group": "G",
@@ -450,7 +450,7 @@
       "nameEn": "Artificial Intelligence",
       "descZh": "符號 AI、搜尋、知識表示、規劃。",
       "descEn": "Symbolic AI, search, knowledge representation, and planning.",
-      "status": "deployed"
+      "status": "preview"
     },
     {
       "group": "G",
@@ -460,7 +460,7 @@
       "nameEn": "Machine Learning",
       "descZh": "監督 / 非監督學習、模型評估、SHAP 與可解釋性。",
       "descEn": "Supervised / unsupervised learning, evaluation, SHAP, interpretability.",
-      "status": "deployed"
+      "status": "preview"
     },
     {
       "group": "G",
@@ -470,7 +470,7 @@
       "nameEn": "Deep Learning",
       "descZh": "CNN、RNN、Transformer 與訓練實務。",
       "descEn": "CNNs, RNNs, Transformers, and training in practice.",
-      "status": "deployed"
+      "status": "preview"
     },
     {
       "group": "G",
@@ -480,7 +480,7 @@
       "nameEn": "Data Mining",
       "descZh": "關聯規則、分群、異常偵測、特徵工程。",
       "descEn": "Association rules, clustering, anomaly detection, and feature engineering.",
-      "status": "deployed"
+      "status": "preview"
     },
     {
       "group": "H",
@@ -490,7 +490,7 @@
       "nameEn": "AI Literacy for Biomedicine",
       "descZh": "Prompt 工程、評估方法、偏誤與合規思維。",
       "descEn": "Prompt engineering, evaluation, bias, and compliance for biomedical AI.",
-      "status": "deployed"
+      "status": "preview"
     },
     {
       "group": "H",
@@ -500,7 +500,7 @@
       "nameEn": "Single-Cell LLMs",
       "descZh": "scGPT、Geneformer、scFoundation 等基礎模型。",
       "descEn": "scGPT, Geneformer, scFoundation, and other single-cell foundation models.",
-      "status": "deployed"
+      "status": "preview"
     },
     {
       "group": "H",
@@ -520,7 +520,7 @@
       "nameEn": "AI Meets Biomedical Big Data",
       "descZh": "TCGA / GTEx、生物基礎模型、跨組學 AI 整合。",
       "descEn": "TCGA / GTEx, biological foundation models, and cross-omics AI integration.",
-      "status": "deployed"
+      "status": "preview"
     },
     {
       "group": "I",
@@ -530,7 +530,7 @@
       "nameEn": "Academic Writing",
       "descZh": "論文結構、回應審稿、IMRaD、學術英文寫作。",
       "descEn": "Paper structure, peer-review response, IMRaD, and scientific English.",
-      "status": "deployed"
+      "status": "preview"
     },
     {
       "group": "I",
@@ -540,7 +540,7 @@
       "nameEn": "Advanced Bioinformatics Programming",
       "descZh": "效能、Rust / Cython、HPC、CI/CD。",
       "descEn": "Performance, Rust / Cython, HPC, and CI/CD for bioinformatics.",
-      "status": "deployed"
+      "status": "preview"
     },
     {
       "group": "I",
@@ -550,7 +550,7 @@
       "nameEn": "Bioimage Analysis",
       "descZh": "Fiji、QuPath、CellProfiler、Cellpose 與深度模型。",
       "descEn": "Fiji, QuPath, CellProfiler, Cellpose, and deep-learning models.",
-      "status": "deployed"
+      "status": "preview"
     },
     {
       "group": "I",
@@ -560,7 +560,7 @@
       "nameEn": "Biomedical Engineering",
       "descZh": "生醫訊號、影像、醫材與法規概論。",
       "descEn": "Biomedical signals, imaging, devices, and regulatory basics.",
-      "status": "deployed"
+      "status": "preview"
     }
   ]
 }
