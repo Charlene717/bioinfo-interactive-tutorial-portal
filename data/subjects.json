@@ -22,23 +22,23 @@
   "groups": [
     {
       "id": "A",
-      "nameZh": "基礎工具",
-      "nameEn": "Foundation Tools",
-      "accent": "#475569",
-      "taglineZh": "動手做之前先把工具備齊",
-      "taglineEn": "Build the toolchain before you build anything",
-      "introZh": "進入生資前必備的工具棧：版本控制、Linux 命令列、Python 與 R 雙語環境。先把工具裝穩，後續所有課程才會有共同語言。",
-      "introEn": "The toolchain every bioinformatician needs first: version control, the Linux command line, and the Python + R working environments. Get the foundations stable so everything else can speak the same language."
+      "nameZh": "工具與程式",
+      "nameEn": "Tools & Programming",
+      "accent": "#d97706",
+      "taglineZh": "動手做之前的全套配置",
+      "taglineEn": "Everything you need before you build",
+      "introZh": "版本控制、Linux 命令列、R 與 Python 雙語環境，再加上整合所有工具的生資程式入門 — 動手做之前該配置的，這一層全部給齊。",
+      "introEn": "Version control, the Linux command line, R and Python working environments, plus an integrated bioinformatics programming primer — everything you need to install and configure before any real analysis."
     },
     {
       "id": "B",
-      "nameZh": "資訊基礎",
-      "nameEn": "CS Foundations",
-      "accent": "#0e7490",
-      "taglineZh": "從計算思維到資料科學流程",
-      "taglineEn": "From computational thinking to the data-science workflow",
-      "introZh": "演算法、資料結構、計算思維與資料科學工作流；雙軌生資程式語言入門 (Python + R)。從這層開始，你會真的開始「寫」生資。",
-      "introEn": "Algorithms, data structures, computational thinking, and the data-science workflow — plus the parallel Python + R tracks. This is where you start actually writing bioinformatics code."
+      "nameZh": "資訊與資料思維",
+      "nameEn": "Computing & Data Thinking",
+      "accent": "#2563eb",
+      "taglineZh": "演算法、結構與資料工作流",
+      "taglineEn": "From algorithms to the data workflow",
+      "introZh": "計算思維、演算法與資料結構、資料科學工作流的核心概念 — 銜接後續所有分析方法的思考底層。",
+      "introEn": "Computational thinking, algorithms and data structures, and the data-science workflow — the conceptual underpinnings of every analytical method that follows."
     },
     {
       "id": "C",
@@ -104,7 +104,7 @@
       "id": "I",
       "nameZh": "研究與工程",
       "nameEn": "Research & Engineering",
-      "accent": "#d97706",
+      "accent": "#475569",
       "taglineZh": "把研究做扎實的軟硬本領",
       "taglineEn": "The skills that make research stick",
       "introZh": "學術寫作、進階生資程式、生物影像分析、生醫工程概論。把分析能力轉化為可發表、可重現、可工程化的成果。",
@@ -136,8 +136,8 @@
       "group": "A",
       "slug": "r-bioinformatics-interactive-tutorial",
       "localPath": "../A_Foundation_Tools_基礎工具/R/r-bioinformatics-interactive-tutorial/",
-      "nameZh": "R 與 tidyverse",
-      "nameEn": "R / tidyverse",
+      "nameZh": "生資 R 入門",
+      "nameEn": "R for Bioinformatics",
       "descZh": "tidyverse、ggplot2、Bioconductor 入門。",
       "descEn": "tidyverse, ggplot2, and a Bioconductor primer.",
       "status": "deployed"
@@ -146,10 +146,20 @@
       "group": "A",
       "slug": "python-bioinformatics-interactive-tutorial",
       "localPath": "../A_Foundation_Tools_基礎工具/Python/python-bioinformatics-interactive-tutorial/",
-      "nameZh": "Python 入門",
+      "nameZh": "生資 Python 入門",
       "nameEn": "Python for Bioinformatics",
       "descZh": "語法、NumPy、pandas、Biopython 基礎。",
       "descEn": "Syntax, NumPy, pandas, and Biopython basics.",
+      "status": "deployed"
+    },
+    {
+      "group": "A",
+      "slug": "intro-bioinfo-prog-interactive-tutorial",
+      "localPath": "../B_CS_Foundations_資訊基礎/Intro_Bioinfo_Programming/intro-bioinfo-prog-interactive-tutorial/",
+      "nameZh": "生資程式入門",
+      "nameEn": "Intro to Bioinformatics Programming",
+      "descZh": "Python / R 雙軌、FASTA / FASTQ / VCF、Snakemake & Nextflow。",
+      "descEn": "Parallel Python / R tracks, FASTA / FASTQ / VCF, Snakemake & Nextflow.",
       "status": "deployed"
     },
     {
@@ -180,16 +190,6 @@
       "nameEn": "Data Science Foundations",
       "descZh": "探索性分析、資料清洗、可視化與模型評估流程。",
       "descEn": "EDA, data cleaning, visualization, and model evaluation.",
-      "status": "deployed"
-    },
-    {
-      "group": "B",
-      "slug": "intro-bioinfo-prog-interactive-tutorial",
-      "localPath": "../B_CS_Foundations_資訊基礎/Intro_Bioinfo_Programming/intro-bioinfo-prog-interactive-tutorial/",
-      "nameZh": "生資程式入門",
-      "nameEn": "Intro to Bioinformatics Programming",
-      "descZh": "Python / R 雙軌、FASTA / FASTQ / VCF、Snakemake & Nextflow。",
-      "descEn": "Parallel Python / R tracks, FASTA / FASTQ / VCF, Snakemake & Nextflow.",
       "status": "deployed"
     },
     {
@@ -244,6 +244,16 @@
     },
     {
       "group": "D",
+      "slug": "biostats-interactive-tutorial",
+      "localPath": "../D_Math_Statistics_數學統計/Biostatistics/biostats-interactive-tutorial/",
+      "nameZh": "生物統計學",
+      "nameEn": "Biostatistics",
+      "descZh": "臨床試驗、存活分析、流行病學統計、檢力計算。",
+      "descEn": "Clinical trials, survival analysis, epidemiological statistics, and power calculations.",
+      "status": "deployed"
+    },
+    {
+      "group": "D",
       "slug": "linalg-interactive-tutorial",
       "localPath": "../D_Math_Statistics_數學統計/Linear_Algebra/linalg-interactive-tutorial/",
       "nameZh": "線性代數",
@@ -260,16 +270,6 @@
       "nameEn": "Statistical Inference",
       "descZh": "估計、假設檢定、貝氏推論、信賴區間。",
       "descEn": "Estimation, hypothesis testing, Bayesian inference, and confidence intervals.",
-      "status": "deployed"
-    },
-    {
-      "group": "D",
-      "slug": "biostats-interactive-tutorial",
-      "localPath": "../D_Math_Statistics_數學統計/Biostatistics/biostats-interactive-tutorial/",
-      "nameZh": "生物統計學",
-      "nameEn": "Biostatistics",
-      "descZh": "臨床試驗、存活分析、流行病學統計、檢力計算。",
-      "descEn": "Clinical trials, survival analysis, epidemiological statistics, and power calculations.",
       "status": "deployed"
     },
     {
@@ -356,7 +356,7 @@
       "group": "F",
       "slug": "bulk-rnaseq-interactive-tutorial",
       "localPath": "../F_Omics_組學分析/Bulk_RNA-seq/bulk-rnaseq-interactive-tutorial/",
-      "nameZh": "Bulk RNA-seq 分析",
+      "nameZh": "整體 RNA-seq",
       "nameEn": "Bulk RNA-seq",
       "descZh": "QC、對齊、計數、DESeq2 與富集分析的完整工作流。",
       "descEn": "QC, alignment, counting, DESeq2, and enrichment analysis end-to-end.",

@@ -32,25 +32,37 @@
   --radius-sm: 8px;
 }
 [data-theme="dark"] {
-  --bg: #0e1422; --bg-soft: #131a2c; --bg-elev: #161e34; --bg-muted: #1d2640; --bg-tint: #243054;
-  --fg: #e8eaf0; --fg-soft: #c7ccda; --fg-mute: #9099ab; --fg-faint: #6b7385;
-  --border: #243054; --border-strong: #324070; --rule: #3a4878;
-  --link: #5eead4; --link-hover: #99f6e4;
-  --shadow-s: 0 1px 2px rgba(0,0,0,.4);
-  --shadow-m: 0 2px 10px rgba(0,0,0,.4), 0 14px 32px rgba(0,0,0,.4);
-  --shadow-l: 0 6px 16px rgba(0,0,0,.5), 0 28px 56px rgba(0,0,0,.5);
-  --status-deployed: #10b981; --status-wip: #f59e0b; --status-planning: #94a3b8;
+  --bg:           #0a0f1d;
+  --bg-soft:      #161e34;
+  --bg-elev:      #243054;
+  --bg-muted:     #2c3858;
+  --bg-tint:      #3a4670;
+  --fg:           #f1f4fb;
+  --fg-soft:      #cdd4e8;
+  --fg-mute:      #98a1bd;
+  --fg-faint:     #6a7494;
+  --border:       #364271;
+  --border-strong:#4d5a8b;
+  --rule:         #5a6699;
+  --link:         #5eead4;
+  --link-hover:   #99f6e4;
+  --shadow-s:     0 1px 2px rgba(0,0,0,.55);
+  --shadow-m:     0 4px 14px rgba(0,0,0,.5), 0 18px 40px rgba(0,0,0,.55);
+  --shadow-l:     0 8px 22px rgba(0,0,0,.6), 0 36px 72px rgba(0,0,0,.65);
+  --status-deployed: #34d399;
+  --status-wip:      #fbbf24;
+  --status-planning: #94a3b8;
 }
 @media (prefers-color-scheme: dark) {
   [data-theme="auto"] {
-    --bg: #0e1422; --bg-soft: #131a2c; --bg-elev: #161e34; --bg-muted: #1d2640; --bg-tint: #243054;
-    --fg: #e8eaf0; --fg-soft: #c7ccda; --fg-mute: #9099ab; --fg-faint: #6b7385;
-    --border: #243054; --border-strong: #324070; --rule: #3a4878;
+    --bg: #0a0f1d; --bg-soft: #161e34; --bg-elev: #243054; --bg-muted: #2c3858; --bg-tint: #3a4670;
+    --fg: #f1f4fb; --fg-soft: #cdd4e8; --fg-mute: #98a1bd; --fg-faint: #6a7494;
+    --border: #364271; --border-strong: #4d5a8b; --rule: #5a6699;
     --link: #5eead4; --link-hover: #99f6e4;
-    --shadow-s: 0 1px 2px rgba(0,0,0,.4);
-    --shadow-m: 0 2px 10px rgba(0,0,0,.4), 0 14px 32px rgba(0,0,0,.4);
-    --shadow-l: 0 6px 16px rgba(0,0,0,.5), 0 28px 56px rgba(0,0,0,.5);
-    --status-deployed: #10b981; --status-wip: #f59e0b; --status-planning: #94a3b8;
+    --shadow-s: 0 1px 2px rgba(0,0,0,.55);
+    --shadow-m: 0 4px 14px rgba(0,0,0,.5), 0 18px 40px rgba(0,0,0,.55);
+    --shadow-l: 0 8px 22px rgba(0,0,0,.6), 0 36px 72px rgba(0,0,0,.65);
+    --status-deployed: #34d399; --status-wip: #fbbf24; --status-planning: #94a3b8;
   }
 }
 * { box-sizing: border-box; }
@@ -220,7 +232,7 @@ a:hover { color: var(--link-hover); text-decoration: underline; }
   font-family: var(--serif); font-weight: 900;
   font-size: 6.5rem; line-height: 1; letter-spacing: -0.02em;
   color: var(--g-accent);
-  background: linear-gradient(180deg, var(--g-accent), color-mix(in srgb, var(--g-accent) 70%, var(--fg)));
+  background: linear-gradient(180deg, var(--g-accent), color-mix(in srgb, var(--g-accent) 55%, var(--bg)));
   -webkit-background-clip: text; background-clip: text;
   -webkit-text-fill-color: transparent; position: relative;
 }
@@ -307,3 +319,153 @@ body[data-mode="local"] .footer-mode::before { content: "✓ "; color: var(--sta
   .nav-link { padding: 6px 8px; }
   .brand-author { display: none; }
 }
+
+/* ===== dark-mode refinements ===== */
+[data-theme="dark"] .hero-accent,
+[data-theme="auto"] .hero-accent {
+  /* In light mode we keep the original opacity; in dark we tone it down */
+}
+@media (prefers-color-scheme: dark) {
+  [data-theme="auto"] .hero-accent {
+    background:
+      radial-gradient(900px 380px at 90% -10%, rgba(167,139,250,.13), transparent 70%),
+      radial-gradient(700px 320px at 10% 110%, rgba(94,234,212,.10), transparent 70%);
+  }
+}
+[data-theme="dark"] .hero-accent {
+  background:
+    radial-gradient(900px 380px at 90% -10%, rgba(167,139,250,.13), transparent 70%),
+    radial-gradient(700px 320px at 10% 110%, rgba(94,234,212,.10), transparent 70%);
+}
+
+/* Stronger card outline + hover lift on dark */
+[data-theme="dark"] .course-card,
+[data-theme="dark"] .f-card,
+[data-theme="dark"] .path-step {
+  background: var(--bg-elev);
+  border-color: var(--border-strong);
+}
+[data-theme="dark"] .course-card:hover,
+[data-theme="dark"] .f-card:hover {
+  border-color: var(--g-accent);
+  box-shadow: 0 8px 22px rgba(0,0,0,.55),
+              0 0 0 1px color-mix(in srgb, var(--g-accent) 35%, transparent);
+}
+@media (prefers-color-scheme: dark) {
+  [data-theme="auto"] .course-card,
+  [data-theme="auto"] .f-card,
+  [data-theme="auto"] .path-step {
+    background: var(--bg-elev);
+    border-color: var(--border-strong);
+  }
+  [data-theme="auto"] .course-card:hover,
+  [data-theme="auto"] .f-card:hover {
+    border-color: var(--g-accent);
+    box-shadow: 0 8px 22px rgba(0,0,0,.55),
+                0 0 0 1px color-mix(in srgb, var(--g-accent) 35%, transparent);
+  }
+}
+
+/* Topbar on dark: stronger contrast against page */
+[data-theme="dark"] .topbar,
+[data-theme="dark"] .featured-section,
+[data-theme="dark"] .site-footer {
+  background: var(--bg-soft);
+}
+@media (prefers-color-scheme: dark) {
+  [data-theme="auto"] .topbar,
+  [data-theme="auto"] .featured-section,
+  [data-theme="auto"] .site-footer {
+    background: var(--bg-soft);
+  }
+}
+
+/* Brand title in dark — slightly brighter to compete with bright accents */
+[data-theme="dark"] .brand-title,
+[data-theme="dark"] .hero-title,
+[data-theme="dark"] .section-title,
+[data-theme="dark"] .track-title {
+  color: #fafbff;
+}
+@media (prefers-color-scheme: dark) {
+  [data-theme="auto"] .brand-title,
+  [data-theme="auto"] .hero-title,
+  [data-theme="auto"] .section-title,
+  [data-theme="auto"] .track-title {
+    color: #fafbff;
+  }
+}
+
+/* Featured card top bar gets a subtle glow in dark */
+[data-theme="dark"] .f-card::before {
+  box-shadow: 0 0 18px color-mix(in srgb, var(--g-accent) 60%, transparent);
+}
+@media (prefers-color-scheme: dark) {
+  [data-theme="auto"] .f-card::before {
+    box-shadow: 0 0 18px color-mix(in srgb, var(--g-accent) 60%, transparent);
+  }
+}
+
+/* Primary button on dark uses the light variable as accent surface */
+[data-theme="dark"] .btn-primary {
+  background: var(--link);
+  color: #08121f !important;
+  border-color: var(--link);
+}
+[data-theme="dark"] .btn-primary:hover {
+  background: var(--link-hover);
+  border-color: var(--link-hover);
+  color: #042029 !important;
+}
+@media (prefers-color-scheme: dark) {
+  [data-theme="auto"] .btn-primary {
+    background: var(--link);
+    color: #08121f !important;
+    border-color: var(--link);
+  }
+  [data-theme="auto"] .btn-primary:hover {
+    background: var(--link-hover);
+    border-color: var(--link-hover);
+    color: #042029 !important;
+  }
+}
+
+/* Code/slug text more visible on dark */
+[data-theme="dark"] .c-slug,
+[data-theme="dark"] code {
+  color: var(--fg-mute);
+}
+@media (prefers-color-scheme: dark) {
+  [data-theme="auto"] .c-slug,
+  [data-theme="auto"] code {
+    color: var(--fg-mute);
+  }
+}
+
+/* Focus ring for keyboard navigation (visible on both themes) */
+a:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible {
+  outline: 2px solid var(--link);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Scrollbar styling for dark mode */
+[data-theme="dark"] .nav-tracks::-webkit-scrollbar-thumb,
+[data-theme="dark"] *::-webkit-scrollbar-thumb {
+  background: var(--border-strong);
+}
+[data-theme="dark"] .nav-tracks::-webkit-scrollbar-thumb:hover {
+  background: var(--rule);
+}
+
+/* ===== dark f-card uses bg-elev so cards stand out from soft panel ===== */
+/* f-card-bg-elev-fix */
+[data-theme="dark"] .f-card {
+  background: var(--bg-elev);
+}
+@media (prefers-color-scheme: dark) {
+  [data-theme="auto"] .f-card {
+    background: var(--bg-elev);
+  }
+}
+
