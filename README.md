@@ -126,9 +126,9 @@ A "live" module is publicly stable; an "in revision" module has working content 
 
 ## 📖 About the author · 關於作者
 
-This series is a personal open-source teaching project by **Charlene Hsieh** (<a href="https://github.com/charlene717" target="_blank" rel="noopener noreferrer">@charlene717 ↗</a>).
+This series is a personal open-source teaching project by **Charlene Chang** (<a href="https://github.com/charlene717" target="_blank" rel="noopener noreferrer">@charlene717 ↗</a>).
 
-本系列為 **Charlene Hsieh** (<a href="https://github.com/charlene717" target="_blank" rel="noopener noreferrer">@charlene717 ↗</a>) 的個人開源教學計畫。
+本系列為 **Charlene Chang** (<a href="https://github.com/charlene717" target="_blank" rel="noopener noreferrer">@charlene717 ↗</a>) 的個人開源教學計畫。
 
 Built independently to support bioinformatics education in the Chinese-speaking research community while remaining fully accessible to English speakers. Every module is cross-checked against current peer-reviewed literature and includes DOI-resolved citations.
 
