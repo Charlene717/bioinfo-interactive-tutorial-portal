@@ -4,9 +4,9 @@
 > **A bilingual, browser-based bioinformatics curriculum — from foundation tools all the way to omics, AI, and research practice.**
 > 一套雙語、瀏覽器即開即用的生資教學系列，從工具與基礎一路走到組學、AI 與研究實務。
 
-This portal is the front door to **44 interactive learning modules**, organized into nine tracks (A–I) that build on one another. Every module ships with hands-on demonstrations, bilingual exposition (English / 繁體中文), and peer-reviewed references — designed for self-study, classroom use, and lab onboarding.
+This portal is your front door to a full, interactive bioinformatics curriculum, organized into nine tracks (A–I) that build on one another — a clear path from your first tools all the way to omics, AI, and research practice. Every module is hands-on, fully bilingual (English / 繁體中文), and grounded in current research — equally at home in self-study, the classroom, or lab onboarding.
 
-這個首頁是 **44 門互動式教學模組**的入口，依九大主題軸 (A–I) 分階段循序展開。每門課都附有可操作的示範、雙語講解 (English / 繁體中文) 與大量同儕審閱的文獻引用 — 適合自學、課堂教材或研究室訓練之用。
+這個首頁是一整套互動式生資課程的入口，依九大主題軸 (A–I) 分階段循序展開 — 從最基礎的工具，一路走到組學、AI 與研究實務，是一條清楚完整的學習路徑。每門模組都能實際動手操作、全程雙語 (English / 繁體中文)，並以當前研究為依據；用於自學、課堂教材或研究室訓練都同樣合適。
 
 ---
 
@@ -130,9 +130,9 @@ This series is a personal open-source teaching project by **Charlene Chang** (<a
 
 本系列為 **Charlene Chang** (<a href="https://github.com/charlene717" target="_blank" rel="noopener noreferrer">@charlene717 ↗</a>) 的個人開源教學計畫。
 
-Built independently to support bioinformatics education in the Chinese-speaking research community while remaining fully accessible to English speakers. Every module is cross-checked against current peer-reviewed literature and includes DOI-resolved citations.
+Built independently as a fully bilingual resource (English / 繁體中文) for anyone learning bioinformatics — students, researchers, and labs alike. Every module is cross-checked against peer-reviewed literature and includes DOI-resolved citations.
 
-這份教材獨立製作，主要服務華語生資教育圈，同時保留英文平行內容讓更廣的讀者群也能使用。每門模組都與目前同儕審閱文獻交叉比對，並附 DOI 引用。
+這份教材獨立製作，以雙語形式 (English / 繁體中文) 提供給每一位想學生資的人 — 無論是學生、研究人員或研究室團隊皆適用。每門模組都與同儕審閱文獻交叉比對，並附 DOI 引用。
 
 ---
 
